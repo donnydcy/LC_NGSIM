@@ -7,9 +7,10 @@ load('..\data\lc_data_20s_withpoints.mat')
 % transfer to related coordinate, in terms of the host
 %%% for the lc_data
 r_lc_data = {};
-Data = [];
+
 Label = [points; 600*ones(length(nlc_data),2)];
-useGK_ = false;
+
+
 for i = 1: length(lc_data)
     trajs = lc_data{i};
     origin_x = trajs.veh_s.x(1);
@@ -71,23 +72,7 @@ for i = 1: length(lc_data)
     da = [da;R_trajs.veh_rt_x(end-19:end-10) ];    
     da = [da;R_trajs.veh_ft_x(end-19:end-10) ];
     da = [da;R_trajs.veh_st_x(end-19:end-10) ];
-    
-    if ~(useGK_)
-        Mdata = da *da';
-        n = (1+5)*(5)/2;
-        d = zeros(1,n);
-        counter = 1;
-        for k = 1:length(Mdata)
-            for j = k:length(Mdata)
-                d(counter)=Mdata(k,j);
-                counter = counter +1;
-            end
-        end
-        Data = [Data;d];
-    else
-       Data = [Data; kernelResult(da)];
-    end
-        
+   
     
     
    
@@ -150,38 +135,12 @@ for i = 1: length(nlc_data)
     da = [da;R_trajs.veh_ft_x(end-19:end-10) ];
     da = [da;R_trajs.veh_st_x(end-19:end-10) ];
     
-     if ~(useGK_)
-        Mdata = da *da';
-        n = (1+5)*(5)/2;
-        d = zeros(1,n);
-        counter = 1;
-        for k = 1:length(Mdata)
-            for j = k:length(Mdata)
-                d(counter)=Mdata(k,j);
-                counter = counter +1;
-            end
-        end
-        Data = [Data;d];
-    else
-       Data = [Data; kernelResult(da)];
-    end
+   
     r_nlc_data{i}=R_trajs;
 end
 
-save('../data/processed_relative.mat','Data','Label','r_lc_data','r_nlc_data')
+save('../data/processed_relative.mat','Label','r_lc_data','r_nlc_data')
 
-
-% basis:
-%
-% given the short observation of all surrounding vehicles, train the whole
-% trajectory  K(t,t1) = []
-%
-
-% x = [    <x1>; 
-%          <x2>;
-%          <x3> ]
-%
-% y = [    <y1> ]
 
 
 
