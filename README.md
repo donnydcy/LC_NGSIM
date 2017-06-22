@@ -1,5 +1,7 @@
 # LC_NGSIM
 lane change trajectories extracted from NGSIM
+
+
 **To use this data, please cite this paper, thank you!**
 ```
 @INPROCEEDINGS{Dong2017_3,
@@ -10,6 +12,8 @@ lane change trajectories extracted from NGSIM
    organization={IEEE}
 }
 ```
+
+[Paper is accpted by IROS 2017]https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Zhang%2C%20Dolan%20-%202017%20-%20RKHSBehavior_draft.pdf
 ## Source Code.
 For source code, click [here](https://github.com/donnydcy/LC_NGSIM/blob/master/src/README.md)
 
