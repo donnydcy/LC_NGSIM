@@ -2,7 +2,7 @@
 lane change trajectories extracted from NGSIM
 **To use this data, please cite this paper, thank you!**
 ```
-@INPROCEEDINGS{chiyuIROS2017,
+@INPROCEEDINGS{Dong2017_3,
    Author = {C. Dong, Y. Zhang and J. Dolan},
    Title = {Lane-Change Social Behavioral Generator for Autonomous Driving Car by Non-parametric Regression in Reproducing Kernel Hilbert Space.},
    Booktitle = {Proc. of The International Conference on Intelligent Robots and Systems (IROS)},
