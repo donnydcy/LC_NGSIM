@@ -1,5 +1,14 @@
 # LC_NGSIM
 lane change trajectories extracted from NGSIM
+**To use this data, please cite this paper, thank you!**
+
+@INPROCEEDINGS{chiyuIROS2017,
+   Author = {C. Dong, Y. Zhang and J. Dolan},
+   Title = {Lane-Change Social Behavioral Generator for Autonomous Driving Car by Non-parametric Regression in Reproducing Kernel Hilbert Space.},
+   Booktitle = {Proc. of The International Conference on Intelligent Robots and Systems (IROS)},
+   Year = {2017},
+   organization={IEEE}
+}
 
 ## Source Code.
 For source code, click [here](https://github.com/donnydcy/LC_NGSIM/blob/master/src/README.md)
