@@ -1,8 +1,8 @@
 # LC_NGSIM
 lane change trajectories extracted from NGSIM
+![fig1](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/fig/scheme_2.png)
 
-
-**To use this data, please cite this paper, thank you!**
+## **To use this dataset, please cite this paper, thank you!**
 ```
 @INPROCEEDINGS{Dong2017_3,
    Author = {C. Dong, Y. Zhang and J. Dolan},
