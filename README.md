@@ -2,7 +2,7 @@
 lane change trajectories extracted from NGSIM
 ![fig1](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/fig/scheme_2.png)
 
-## **To use this dataset, please cite this paper, thank you!**
+## **This dataset comes with the paper below**
 ```
 @INPROCEEDINGS{Dong2017_3,
    Author = {C. Dong, Y. Zhang and J. Dolan},
@@ -15,8 +15,10 @@ lane change trajectories extracted from NGSIM
 
 [Paper is accepted by IROS 2017](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Zhang%2C%20Dolan%20-%202017%20-%20RKHSBehavior_draft.pdf)
 
-A related Ramp Merging Control paper is published in IV 2017, [here is the accepted version](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Dolan%2C%20Litkouh%20-%202017%20-%20RampMering%20accept.pdf)
-Ramp merge data will be uploaded soon. 
+A related Ramp Merging Control paper is published in IV 2017, 
+[here is the accepted version](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Dolan%2C%20Litkouh%20-%202017%20-%20RampMering%20accept.pdf
+)
+Ramp merge data and full link to IEEE Xplore will be updated soon.
 To see the final version: 
 
 ```
