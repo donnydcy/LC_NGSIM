@@ -21,7 +21,7 @@ To see the final version:
 
 ```
 @INPROCEEDINGS{Dong2017_2,
-   Author = {C. Dong, J.Dolan and B. Litkouhi$},
+   Author = {C. Dong, J.Dolan and B. Litkouhi},
    Title = {Intention Estimation For Ramp Merging Control In Autonomous Driving.},
    Booktitle = {Proc. of The Intelligent Vehicles Symposium (IV)},
    Year = {2017},
