@@ -15,11 +15,12 @@ lane change trajectories extracted from NGSIM
 }
 ```
 
-[Paper is accepted by IROS 2017](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Zhang%2C%20Dolan%20-%202017%20-%20RKHSBehavior_draft.pdf)
+[Paper is accepted by IROS 2017](https://www.ri.cmu.edu/wp-content/uploads/2017/12/iros_2017_RKHSBehavior.pdf)
 
 A related Ramp Merging Control paper is published in IV 2017, 
-[here is the accepted version](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Dolan%2C%20Litkouh%20-%202017%20-%20RampMering%20accept.pdf
-)
+
+[here is the accepted version,](https://www.ri.cmu.edu/wp-content/uploads/2017/07/Dong-2017-Intention-Estimation.pdf)
+[and an updated version:](https://www.ri.cmu.edu/wp-content/uploads/2017/12/20170731-Camera-ready-copy.pdf)
 Ramp merge data and full link to IEEE Xplore will be updated soon.
 To see the final version: 
 
