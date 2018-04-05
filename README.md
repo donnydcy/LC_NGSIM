@@ -2,14 +2,16 @@
 lane change trajectories extracted from NGSIM
 ![fig1](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/fig/scheme_2.png)
 
+
 ## **This dataset comes with the paper below**
 ```
-@INPROCEEDINGS{Dong2017_3,
-   Author = {C. Dong, Y. Zhang and J. Dolan},
-   Title = {Lane-Change Social Behavioral Generator for Autonomous Driving Car by Non-parametric Regression in Reproducing Kernel Hilbert Space.},
-   Booktitle = {Proc. of The International Conference on Intelligent Robots and Systems (IROS)},
-   Year = {2017},
-   organization={IEEE}
+@inproceedings{dong2017lane,
+  title={Lane-change social behavior generator for autonomous driving car by non-parametric regression in Reproducing Kernel Hilbert Space},
+  author={Dong, Chiyu and Zhang, Yihuan and Dolan, John M},
+  booktitle={Intelligent Robots and Systems (IROS), 2017 IEEE/RSJ International Conference on},
+  pages={4489--4494},
+  year={2017},
+  organization={IEEE}
 }
 ```
 
@@ -22,13 +24,29 @@ Ramp merge data and full link to IEEE Xplore will be updated soon.
 To see the final version: 
 
 ```
-@INPROCEEDINGS{Dong2017_2,
-   Author = {C. Dong, J.Dolan and B. Litkouhi},
-   Title = {Intention Estimation For Ramp Merging Control In Autonomous Driving.},
-   Booktitle = {Proc. of The Intelligent Vehicles Symposium (IV)},
-   Year = {2017},
-   organization={IEEE}
+@inproceedings{dong2017intention,
+  title={Intention estimation for ramp merging control in autonomous driving},
+  author={Dong, Chiyu and Dolan, John M and Litkouhi, Bakhtiar},
+  booktitle={Intelligent Vehicles Symposium (IV), 2017 IEEE},
+  pages={1584--1589},
+  year={2017},
+  organization={IEEE}
 }
+
+```
+
+The original NGSIM program:
+```
+@article{
+author={Alexiadis,Vassili and Colyar,James and Halkias,John and Hranac,Rob and McHale,Gene},
+year={2004},
+month={08},
+title={The Next Generation Simulation Program},
+journal={Institute of Transportation Engineers.ITE Journal},
+volume={74},
+number={8},
+pages={22-26},
+} 
 ```
 
 ## Source Code.
