@@ -4,13 +4,15 @@ lane change trajectories extracted from NGSIM
 
 ## **This dataset comes with the paper below**
 ```
-@INPROCEEDINGS{Dong2017_3,
-   Author = {C. Dong, Y. Zhang and J. Dolan},
-   Title = {Lane-Change Social Behavioral Generator for Autonomous Driving Car by Non-parametric Regression in Reproducing Kernel Hilbert Space.},
-   Booktitle = {Proc. of The International Conference on Intelligent Robots and Systems (IROS)},
-   Year = {2017},
-   organization={IEEE}
+@inproceedings{dong2017lane,
+  title={Lane-change social behavior generator for autonomous driving car by non-parametric regression in Reproducing Kernel Hilbert Space},
+  author={Dong, Chiyu and Zhang, Yihuan and Dolan, John M},
+  booktitle={Intelligent Robots and Systems (IROS), 2017 IEEE/RSJ International Conference on},
+  pages={4489--4494},
+  year={2017},
+  organization={IEEE}
 }
+
 ```
 
 [Paper is accepted by IROS 2017](https://github.com/donnydcy/LC_NGSIM/blob/master/docs/Dong%2C%20Zhang%2C%20Dolan%20-%202017%20-%20RKHSBehavior_draft.pdf)
