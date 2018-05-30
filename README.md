@@ -13,6 +13,7 @@ lane change trajectories extracted from NGSIM
   year={2017},
   organization={IEEE}
 }
+
 ```
 
 [Paper is accepted by IROS 2017](https://www.ri.cmu.edu/wp-content/uploads/2017/12/iros_2017_RKHSBehavior.pdf)
